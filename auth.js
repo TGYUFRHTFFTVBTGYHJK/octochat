@@ -1,12 +1,12 @@
 // Your Firebase configuration
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID",
-    databaseURL: "YOUR_DATABASE_URL"
+    apiKey: "AIzaSyCu24DerHJobOFJ1pFo0VTDKwIeFz1aFwU",
+    authDomain: "wesocto-chat.firebaseapp.com",
+    projectId: "wesocto-chat",
+    storageBucket: "wesocto-chat.appspot.com",
+    messagingSenderId: "91369086556",
+    appId: "1:91369086556:web:4653ace1ca0b4bf8991099",
+    databaseURL: "https://console.firebase.google.com/u/0/project/wesocto-chat/database/wesocto-chat-default-rtdb/data/~2F"
 };
 
 // Initialize Firebase
