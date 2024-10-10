@@ -1,2 +1,3 @@
-# octochat
-OctoChat is a fun little project.
+# OctoChat
+## Chat Time Fun Time.
+OctoChat is goofy little project I made using ChatGPT.
