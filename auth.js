@@ -6,7 +6,7 @@ const firebaseConfig = {
     storageBucket: "wesocto-chat.appspot.com",
     messagingSenderId: "91369086556",
     appId: "1:91369086556:web:4653ace1ca0b4bf8991099",
-    databaseURL: "https://console.firebase.google.com/u/0/project/wesocto-chat/database/wesocto-chat-default-rtdb/data/~2F"
+    databaseURL: "https://wesocto-chat-default-rtdb.firebaseio.com/"
 };
 
 // Initialize Firebase
