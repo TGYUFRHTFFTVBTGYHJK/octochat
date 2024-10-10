@@ -44,14 +44,14 @@ registerBtn.addEventListener('click', () => {
         .then(userCredential => {
             const user = userCredential.user;
 
-            // Save the username in the database
+            // Save the username in the database under the user's UID
             database.ref('users/' + user.uid).set({
                 username: username,
                 email: email
             });
 
             alert('Registered successfully');
-            // Redirect to chat
+            // Redirect to chat.html after successful registration
             window.location = 'chat.html';
         })
         .catch(error => {
@@ -68,7 +68,7 @@ loginBtn.addEventListener('click', () => {
     auth.signInWithEmailAndPassword(email, password)
         .then(userCredential => {
             alert('Logged in successfully');
-            // Redirect to chat
+            // Redirect to chat.html after successful login
             window.location = 'chat.html';
         })
         .catch(error => {
